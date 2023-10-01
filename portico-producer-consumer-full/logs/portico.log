@@ -1,0 +1,65 @@
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=ExampleFederation
+ERROR [main] portico.lrc: federation exists: ExampleFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: ExampleFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at hla13.producerConsumer.producer.ProducerFederate.runFederate(ProducerFederate.java:30)
+	at hla13.producerConsumer.producer.ProducerFederate.main(ProducerFederate.java:172)
+ERROR [main] portico.lrc: FAILURE Regiser sync point [ReadyToRun] by [ProducerFederate]: already registered
+ERROR [main] portico.lrc: FAILURE Register sync point [ReadyToRun] by [ProducerFederate]: label already registered
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=ExampleFederation
+ERROR [main] portico.lrc: federation exists: ExampleFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: ExampleFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at hla13.producerConsumer.storage.StorageFederate.runFederate(StorageFederate.java:34)
+	at hla13.producerConsumer.storage.StorageFederate.main(StorageFederate.java:232)
+ERROR [main] portico.lrc: FAILURE Regiser sync point [ReadyToRun] by [StorageFederate]: already registered
+ERROR [main] portico.lrc: FAILURE Register sync point [ReadyToRun] by [StorageFederate]: label already registered
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=ExampleFederation
+ERROR [main] portico.lrc: federation exists: ExampleFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: ExampleFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at hla13.producerConsumer.producer.ProducerFederate.runFederate(ProducerFederate.java:30)
+	at hla13.producerConsumer.producer.ProducerFederate.main(ProducerFederate.java:172)
+ERROR [main] portico.lrc: FAILURE Regiser sync point [ReadyToRun] by [ProducerFederate]: already registered
+ERROR [main] portico.lrc: FAILURE Register sync point [ReadyToRun] by [ProducerFederate]: label already registered
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=ExampleFederation
+ERROR [main] portico.lrc: federation exists: ExampleFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: ExampleFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at hla13.producerConsumer.storage.StorageFederate.runFederate(StorageFederate.java:34)
+	at hla13.producerConsumer.storage.StorageFederate.main(StorageFederate.java:232)
+ERROR [main] portico.lrc: FAILURE Regiser sync point [ReadyToRun] by [StorageFederate]: already registered
+ERROR [main] portico.lrc: FAILURE Register sync point [ReadyToRun] by [StorageFederate]: label already registered
+WARN  [VERIFY_SUSPECT.TimerThread,ExampleFederation,MacBook-Air-Micha-46043] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,ExampleFederation,MacBook-Air-Micha-46043] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,ExampleFederation,MacBook-Air-Micha-43563] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,ExampleFederation,MacBook-Air-Micha-43563] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,ExampleFederation,MacBook-Air-Micha-43563] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,ExampleFederation,MacBook-Air-Micha-46043] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,ExampleFederation,MacBook-Air-Micha-46043] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,ExampleFederation,MacBook-Air-Micha-43563] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
+WARN  [VERIFY_SUSPECT.TimerThread,ExampleFederation,MacBook-Air-Micha-43563] portico.lrc.jgroups: Detected that federate [1] may have crashed, investigating...
